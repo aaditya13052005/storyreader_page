@@ -1,17 +1,10 @@
 {
   "functions": {
-<<<<<<< HEAD
-    "api/index.py": { "runtime": "vercel-python@1.1.0" }
-  },
-  "routes": [
-    { "src": "^/static/(.*)$", "dest": "/static/$1" },
-    { "src": "/(.*)", "dest": "/api/index.py" }
-=======
     "api/*.py": { "runtime": "vercel-python@1.1.0" }
   },
   "routes": [
     { "src": "^/static/(.*)$", "dest": "/static/$1" },
     { "src": "/(.*)", "dest": "/api/app.py" }
->>>>>>> 2683c36 (Move app.py to /api, update vercel.json and requirements for Vercel)
   ]
 }
+
