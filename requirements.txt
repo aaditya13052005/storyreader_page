@@ -1,3 +1,5 @@
-Flask
+flask
 supabase
 requests
+python-dotenv
+gunicorn
